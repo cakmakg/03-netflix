@@ -84,6 +84,7 @@ const gonderDatabase=(e)=>{
             <button
               type="button"
               className="btn-danger flex justify-between text-center "
+              On
             >
               Continue with Google
               <GoogleIcon />
