@@ -14,7 +14,7 @@ export const YetkiContext=createContext()
 
 
 const AuthContextProvider = ({children}) => {
-const [currentUser,setCurrentUser]=useState("")
+const [currentUser,setCurrentUser]=useState("") // displayName icin degisken acildi
 
 const router=useRouter()
 
